@@ -17,8 +17,8 @@ import com.pension.processpensionmodule.model.PensionDetailsResponse;
  * @author SAYANDIP PAUL
  *
  */
-@FeignClient(name = "Pension-Details-Module", url = "http://localhost:8500")
-//@FeignClient(name = "Pension-Details-Module", url = "http://50.18.229.143:8500")
+//@FeignClient(name = "Pension-Details-Module", url = "http://localhost:8500")
+@FeignClient(name = "Pension-Details-Module", url = "http://54.148.69.6:8500")
 public interface PensionDetailsClient {
 
 	@GetMapping(value = "/api/getPensionDetailsByAadhaarNumber/{aadhaar}")
