@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-2:274201610284:task-definition/process-pension-module:3"
+        TaskDefinition: "arn:aws:ecs:us-east-2:274201610284:task-definition/process-pension-module:4"
         LoadBalancerInfo:
           ContainerName: "pensioncontainer"
           ContainerPort: "80"

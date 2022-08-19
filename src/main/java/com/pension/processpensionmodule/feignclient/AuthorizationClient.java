@@ -16,7 +16,7 @@ import com.pension.processpensionmodule.model.AuthorizationResponse;
  *
  */
 //@FeignClient(name = "Authorization-Service", url = "http://localhost:8400")
-@FeignClient(name = "Authorization-Service", url = "http://3.141.18.28:8400")	
+@FeignClient(name = "Authorization-Service", url = "http://18.217.222.29:8400")	
 public interface AuthorizationClient {
 
 	@GetMapping(value = "/api/authorize/{token}")
