@@ -20,7 +20,6 @@ import com.pension.processpensionmodule.service.ProcessPensionServiceImpl;
  */
 @RestController
 @CrossOrigin
-@RequestMapping(value = "/api")
 public class ProcessPensionController {
 
 	@Autowired
